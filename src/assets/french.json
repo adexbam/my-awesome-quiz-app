@@ -42,10 +42,10 @@
     ]
   },
   {
-    "label": "What is Good-morning in french?",
+    "label": "What is 'walk' in french?",
     "choices": [
       {
-        "value": "Bonjour",
+        "value": "marche",
         "correct": true
       },
       {
@@ -70,7 +70,7 @@
         "correct": false
       },
       {
-        "value": "Bonjour",
+        "value": "frère",
         "correct": false
       },
       {

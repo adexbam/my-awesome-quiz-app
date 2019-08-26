@@ -1,1 +1,20 @@
-<p>welcome works!</p>
+<mat-card-header>
+        Quizes
+</mat-card-header>
+
+<mat-card>
+    <mat-card-title>Questions on basic French / German / Math?</mat-card-title>
+    <mat-card-subtitle>Click an image below to try</mat-card-subtitle>
+
+    <a routerLink='/french' class='btn btn-primary quiz_button'>
+        <img mat-card-lg-image src="https://cdn.countryflags.com/thumbs/france/flag-800.png">
+    </a>
+
+    <a routerLink='/german' class='btn btn-primary quiz_button'>
+        <img mat-card-lg-image src="https://cdn.countryflags.com/thumbs/germany/flag-800.png">
+    </a>
+
+    <a routerLink='/maths' class='btn btn-primary quiz_button'>
+        <img mat-card-lg-image src="https://www.itweb.co.za/static/pictures/2018/05/resized/-fs-Math-2018.xl.jpg">
+    </a>  
+</mat-card>

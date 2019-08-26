@@ -6,10 +6,11 @@ import { switchMap } from 'rxjs/operators';
 import { QuestionsService } from '../questions.service';
 import { Quiz, Answers, Choice, Question } from '../quiz.model';
 
+
 @Component({
   selector: 'app-questions',
   templateUrl: './questions.component.html',
-  styleUrls: ['./questions.component.sass']
+  styleUrls: ['./questions.component.scss']
 })
 export class QuestionsComponent implements OnInit {
 
